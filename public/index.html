@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">Weather App</h1>
+    </header>
+    <main>
+        <form action="" id="searchPlaceForm">
+            <label for="searchPlace">Search Location:</label>
+            <input type="text" id="searchPlace">
+            <button id="fetchBtn"><svg class="svg-icon" viewBox="0 0 20 20">
+                    <path
+                        d="M17.218,2.268L2.477,8.388C2.13,8.535,2.164,9.05,2.542,9.134L9.33,10.67l1.535,6.787c0.083,0.377,0.602,0.415,0.745,0.065l6.123-14.74C17.866,2.46,17.539,2.134,17.218,2.268 M3.92,8.641l11.772-4.89L9.535,9.909L3.92,8.641z M11.358,16.078l-1.268-5.613l6.157-6.157L11.358,16.078z">
+                    </path>
+                </svg></button>
+        </form>
+        <div id="result">
+            <ul id="resultList">
+
+            </ul>
+        </div>
+        <div id="current">
+            <div id="currentTemp">
+                <div id="areaName">Loading...</div>
+                <div id="weatherImage">Loading...</div>
+                <div id="description">Loading...</div>
+                <div id="lastUpdate">Loading...</div>
+                <div id="data">
+                    <div class="data-item">
+                        <h3>Region:</h3>
+                        <p id="region">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Temprature:</h3>
+                        <p id="temp">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Humidity:</h3>
+                        <p id="humidity">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Clouds:</h3>
+                        <p id="clouds">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Feels Like:</h3>
+                        <p id="feelsLike">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Wind:</h3>
+                        <p id="windInfo">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Precipitation:</h3>
+                        <p id="precipitation">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Visibility:</h3>
+                        <p id="visibility">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Pressure:</h3>
+                        <p id="pressure">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>UV Index:</h3>
+                        <p id="uv">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Sun rise:</h3>
+                        <p id="sunRise">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Sun set:</h3>
+                        <p id="sunSet">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Moon rise:</h3>
+                        <p id="moonRise">Loading...</p>
+                    </div>
+                    <div class="data-item">
+                        <h3>Moon set:</h3>
+                        <p id="moonSet">Loading...</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+    </footer>
+</body>
+
+</html>
